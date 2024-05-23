@@ -29,11 +29,17 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import mui from "./mui.jpg"
-import capcut from "./capcut.png"
-import bot from "./bot.png"
+import mui from "./mui.jpg";
+import capcut from "./capcut.png";
+import bot from "./bot.png";
+import dashboard from "./dashboard.png";
+import hotelBooking from "./hotelbooking.png";
+import barber from "./barber.png";
 
 export {
+  dashboard,
+  hotelBooking,
+  barber,
   logo,
   bot,
   capcut,

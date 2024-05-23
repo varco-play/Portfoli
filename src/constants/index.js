@@ -13,18 +13,16 @@ import {
   mongodb,
   git,
   figma,
-  docker,
   meta,
-  starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  hotelBooking,
+  barber,
+  dashboard,
   github,
   mui,
   capcut,
-  bot
+  bot,
 } from "../assets";
 
 export const navLinks = [
@@ -65,8 +63,8 @@ const services = [
   },
   {
     title: "Telegram Bot",
-    icon: bot
-  }
+    icon: bot,
+  },
 ];
 
 const technologies = [
@@ -122,16 +120,14 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
- 
 ];
 
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "DJB",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2023 - April 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -141,7 +137,7 @@ const experiences = [
   },
   {
     title: "Frontend Developer",
-    company_name: "Tesla",
+    company_name: "Freelance",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
@@ -166,8 +162,8 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Backend",
+    company_name: "Own Project",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
@@ -209,7 +205,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Hotel Booking",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -226,49 +222,49 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: hotelBooking,
+    source_code_link: "https://github.com/varco-play/MERN_Hotel",
   },
   {
-    name: "Job IT",
+    name: "Barbershop",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to book seats in advance and choose the service. Also showcases a galary and employess of that barbershop",
     tags: [
       {
-        name: "react",
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "JS",
+        color: "yellow-text-gradient",
       },
     ],
-    image: jobit,
+    image: barber,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Dashboard",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive dashboard that allows you to visualize all business processes in your company, track all your customers and employess. Count your expenses on projects, and you budget",
     tags: [
       {
-        name: "nextjs",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "Express.js",
+        color: "yellow-text-gradient",
       },
     ],
-    image: tripguide,
+    image: dashboard,
     source_code_link: "https://github.com/",
   },
 ];
